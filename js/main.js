@@ -9,7 +9,7 @@ sizeUp.addEventListener('click', function(){
 });
 
 sizeDown.addEventListener('click', function(){
-
+    text.style.fontSize = (currentSize -= 5) + "px";
 });
 
 colorChange.addEventListener('click', function(){
