@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+body {
+  margin: 0 auto;
+  background-color: #DFE3D3;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+
+.jumbotron {
+  background: url("https://images.unsplash.com/photo-1512747646639-ed824d861e0d?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D") center;
+  height: 400px;
+}
+
+.jumbotron h1, .jumbotron h3 {
+  color: #FFF;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.jumbotron h1 {
+  font-size: 40px;
+  padding-top: 150px;
+  margin-top: 0;
+}
+
+.jumbotron h3 {
+  font-size: 30px;
+  padding-bottom: 150px;
+}
+
+.song {
+  height: auto;
+  background-color: #D8D9D5;
+  margin: 30px auto;
+  font-size: 20px;
+  padding: 10px 0;
+  max-width: 700px;
+  border-radius: 3%;
+  box-shadow: 3px 3px 5px #000;
+}
+
+.song p:nth-child(even) {
+  font-style: italic;
+}
+
+footer {
+  background-color: #070F00;
+  padding: 15px;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.test {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+}
+/*# sourceMappingURL=style.prefixed.css.map */
