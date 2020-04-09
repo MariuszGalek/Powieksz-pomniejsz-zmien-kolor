@@ -13,5 +13,8 @@ sizeDown.addEventListener('click', function(){
 });
 
 colorChange.addEventListener('click', function(){
-
+    let r = Math.floor(Math.random() * 255);
+    let g = Math.floor(Math.random() * 255);
+    let b = Math.floor(Math.random() * 255);
+    text.style.color = `rgb(${r},${g},${b})`;
 });
